@@ -1,0 +1,6 @@
+general:
+- ver posibilidad de ocultar tareas irrelevantes.
+vagrant:
+- Agregar posibilidad de auto provisionar las maquinas apenas levantan.
+- Agregar funcion para correr comando en la maquina virtual.
+- Agregar posibilidad de "force" a package.

@@ -1,0 +1,15 @@
+0.0.2:
+buildout:
+- Si existe el ejecutable de buildout no correr bootstrap.
+- Chequear que el directorio buildout_base_path exista antes de cada tarea.
+- Agregar test de unidad item anterior.
+- Que el archivo
+
+puppet client:
+- cambiar el tunel ssh de ruby por comandos tipo: ssh -R 8140:localhost:8140 root@staging.panaldeideas.com "comando"
+
+vagrant:
+- Agregar funcion para halt(hecho).
+
+0.0.3:
+- El bootstrap de buildout debe rcibig el archivo de configuracion de buildout como parametro
