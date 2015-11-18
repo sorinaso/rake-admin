@@ -26,4 +26,5 @@ Gem::Specification.new do |spec|
   #spec.add_dependency "net-ssh", "~> 2.6.6"
   spec.add_dependency "net-ssh"
   spec.add_dependency "highline"
+  spec.add_dependency "inifile"
 end

@@ -1,4 +1,5 @@
 require 'rake/admin/error'
+require 'rake/tasklib'
 
 module Rake
   module Admin
