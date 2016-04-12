@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec"
 
   spec.add_dependency "rake"
-  spec.add_dependency "log4r", "~> 1.1.10"
+  spec.add_dependency "log4r"
   #spec.add_dependency "net-ssh", "~> 2.6.6"
   spec.add_dependency "net-ssh"
   spec.add_dependency "highline"
