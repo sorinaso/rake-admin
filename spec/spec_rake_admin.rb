@@ -2,7 +2,11 @@ module Rake
   module Admin
     module Spec
       def self.resources_path
-        File.join(File.dirname(__FILE__), "resources")
+        ret = File.join("/tmp", "rake-admin-tests")
+
+        Dir.mkdir(ret) unless File.exists?(ret)
+
+        ret
       end
     end
   end
