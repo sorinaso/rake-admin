@@ -29,7 +29,7 @@ module Rake
 
       class Container < Rake::TaskLib
 
-        attr_accessor :name, :image_name, :run_paramaters, :run_command
+        attr_accessor :name, :image_name, :run_parameters, :run_command
 
         include Rake::Admin::Validations
 
