@@ -48,22 +48,22 @@ module Rake
 
         def define
 
-          desc "Inicia el container #{@name}"
+          # Inicia el container.
           task :start do
             sh "docker start '#{@name}'"
           end
 
-          desc "Se atachea al container #{@name}"
+          # Se atachea al container.
           task :attach do
             sh "docker attach '#{@name}'"
           end
 
-          desc "Borra el container #{@name}"
+          # Borra el container
           task :delete do
             sh "docker rm -f '#{@name}'"
           end
 
-          desc "Abre un shell en un container de docker."
+          # Abre un shell en el container de docker.
           task :run do
             sh "docker run #{@run_parameters} --name '#{@name}' #{@image_name} #{@run_command}"
           end
